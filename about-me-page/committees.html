@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>호텔컨벤션전공 교수 소개 - 자문 및 위원회 활동</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .activity-gallery { display: flex; flex-direction: column; gap: 50px; margin-top: 30px; }
+        .activity-item { display: flex; gap: 40px; align-items: center; }
+        .activity-img { width: 380px; height: 260px; object-fit: cover; border-radius: 8px; box-shadow: 0 6px 20px rgba(0,0,0,0.08); flex-shrink: 0; }
+        .activity-desc h4 { color: var(--primary-blue); font-size: 20px; margin-bottom: 12px; font-weight: 700; }
+        .activity-desc p { color: #555; line-height: 1.7; font-size: 15px; }
+        @media screen and (max-width: 800px) {
+            .activity-item { flex-direction: column !important; text-align: center; gap: 20px; }
+            .activity-img { width: 100%; height: auto; max-height: 300px; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header-bar">
+        호텔컨벤션전공 교수 소개
+    </header>
+
+    <div class="container fade-in">
+        <div class="profile-header">
+            <h1 class="name">김 미 준</h1>
+            <div class="title-info">
+                호텔관광학부 학부장 / 호텔컨벤션전공 김미준 주임교수
+            </div>
+        </div>
+        <div class="divider"></div>
+
+        <main class="profile-content" style="flex-direction: column; align-items: stretch; gap: 0;">
+            <div class="nav-container" style="margin-bottom: 25px; text-align: left; margin-top: 0; display: flex; justify-content: space-between; align-items: center;">
+                <a href="activities.html" class="nav-link-back" style="color: #666; text-decoration: none; font-weight: 600;">&larr; 이전 활동으로 돌아가기</a>
+                <a href="index.html" class="nav-link-back" style="color: var(--primary-blue); text-decoration: none; font-weight: 600;">홈으로 &uarr;</a>
+            </div>
+
+            <section class="experience-block" style="padding: 40px 30px;">
+                <h3 class="section-title" style="font-size: 22px; text-align: center; margin-bottom: 10px;">Advisory & Committee Activities</h3>
+                <p style="text-align: center; color: #777; margin-bottom: 40px; font-size: 15px;">전문가로서의 자문 및 위원회 주요 활동</p>
+                
+                <div class="activity-gallery">
+                    <!-- Activity 1 -->
+                    <div class="activity-item">
+                        <img src="images/kto_evaluator.png" alt="호텔업등급결정요원" class="activity-img">
+                        <div class="activity-desc">
+                            <h4>한국관광공사 호텔업등급결정요원(전문가)</h4>
+                            <p>한국관광공사에서 주관하는 전국 호텔업 등급 심사의 전문 평가 위원으로 활동하며 숙박 산업의 서비스 품질 향상에 기여하고 있습니다.</p>
+                        </div>
+                    </div>
+
+                    <div class="inner-divider" style="margin: 0;"></div>
+
+                    <!-- Activity 2 -->
+                    <div class="activity-item" style="flex-direction: row-reverse;">
+                        <img src="images/vocational_committee.png" alt="국제직업능력평가원 운영위원" class="activity-img">
+                        <div class="activity-desc">
+                            <h4>국제직업능력평가원 운영위원</h4>
+                            <p>국제직업능력평가원(IVQ) 운영위원으로 직업 능력 표준화 및 글로벌 기준에 맞춘 인재 역량 평가 시스템 고도화에 자문 역할을 수행합니다.</p>
+                        </div>
+                    </div>
+
+                    <div class="inner-divider" style="margin: 0;"></div>
+
+                    <!-- Activity 3 -->
+                    <div class="activity-item">
+                        <img src="images/hotel_consulting.png" alt="호텔업등급 사전컨설팅 운영위원" class="activity-img">
+                        <div class="activity-desc">
+                            <h4>한국관광공사 호텔업등급 사전컨설팅 운영위원</h4>
+                            <p>호텔 등급 평가를 앞둔 기업을 대상으로 사전 컨설팅을 제공하는 운영위원으로서 현장 실무 맞춤형 지도를 제공합니다.</p>
+                        </div>
+                    </div>
+
+                    <div class="inner-divider" style="margin: 0;"></div>
+
+                    <!-- Activity 4 -->
+                    <div class="activity-item" style="flex-direction: row-reverse;">
+                        <img src="images/food_service_expert.png" alt="대한외식창업협회 전문위원" class="activity-img">
+                        <div class="activity-desc">
+                            <h4>대한외식창업협회 전문위원</h4>
+                            <p>외식 창업 및 경영에 관련된 전문 지식을 바탕으로 대한외식창업협회의 전문위원으로 위촉되어 실질적인 솔루션을 자문합니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="nav-container" style="margin-top: 35px; text-align: right;">
+                <a href="guestbook.html" class="nav-link-next">방명록 남기기 &rarr;</a>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

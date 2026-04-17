@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>호텔컨벤션전공 교수 소개 - 주요 활동</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .activity-gallery { display: flex; flex-direction: column; gap: 50px; margin-top: 30px; }
+        .activity-item { display: flex; gap: 40px; align-items: center; }
+        .activity-img { width: 380px; height: 260px; object-fit: cover; border-radius: 8px; box-shadow: 0 6px 20px rgba(0,0,0,0.08); flex-shrink: 0; }
+        .activity-desc h4 { color: var(--primary-blue); font-size: 20px; margin-bottom: 12px; font-weight: 700; }
+        .activity-desc p { color: #555; line-height: 1.7; font-size: 15px; }
+        @media screen and (max-width: 800px) {
+            .activity-item { flex-direction: column !important; text-align: center; gap: 20px; }
+            .activity-img { width: 100%; height: auto; max-height: 300px; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header-bar">
+        호텔컨벤션전공 교수 소개
+    </header>
+
+    <div class="container fade-in">
+        <div class="profile-header">
+            <h1 class="name">김 미 준</h1>
+            <div class="title-info">
+                호텔관광학부 학부장 / 호텔컨벤션전공 김미준 주임교수
+            </div>
+        </div>
+        <div class="divider"></div>
+
+        <main class="profile-content" style="flex-direction: column; align-items: stretch; gap: 0;">
+            <div class="nav-container" style="margin-bottom: 25px; text-align: left; margin-top: 0;">
+                <a href="experience.html" class="nav-link-back" style="color: #666; text-decoration: none; font-weight: 600; display: inline-block;">&larr; 경력 및 학력 상세로 돌아가기</a>
+            </div>
+
+            <section class="experience-block" style="padding: 40px 30px;">
+                <h3 class="section-title" style="font-size: 22px; text-align: center; margin-bottom: 10px;">Professional Activities</h3>
+                <p style="text-align: center; color: #777; margin-bottom: 40px; font-size: 15px;">주요 실무 경력 및 글로벌 활동 사진</p>
+                
+                <div class="activity-gallery">
+                    <!-- Activity 1 -->
+                    <div class="activity-item">
+                        <img src="images/westin_marketing.png" alt="웨스틴조선호텔 마케팅 부서" class="activity-img">
+                        <div class="activity-desc">
+                            <h4>The Westin Chosun Hotel<br>Sales and Marketing Manager</h4>
+                            <p>웨스틴조선호텔의 세일즈 & 마케팅 매니저로서 실무 역량을 쌓았으며, 최고급 호텔 브랜드의 가치 창출과 VIP 고객 담당 서비스를 기획 및 운영하였습니다.</p>
+                        </div>
+                    </div>
+
+                    <div class="inner-divider" style="margin: 0;"></div>
+
+                    <!-- Activity 2 -->
+                    <div class="activity-item" style="flex-direction: row-reverse;">
+                        <img src="images/wine_judging.png" alt="독일 베를린 와인 트로피 심사" class="activity-img">
+                        <div class="activity-desc">
+                            <h4>Berlin Wine Trophy 심사위원</h4>
+                            <p>국제적인 권위를 자랑하는 독일 베를린 와인 트로피(Berlin Wine Trophy)의 심사위원으로 초빙되어, 마스터 소믈리에로서 세계적인 와인들을 평가하며 활약하고 있습니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="nav-container" style="margin-top: 35px; text-align: right;">
+                <a href="committees.html" class="nav-link-next">자문 및 위원회 활동 보기 &rarr;</a>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
